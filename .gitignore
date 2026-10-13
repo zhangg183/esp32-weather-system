@@ -1,0 +1,9 @@
+.pio/
+.vscode/
+*.code-workspace
+
+.env
+secrets.h
+
+Thumbs.db
+.DS_Store
