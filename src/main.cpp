@@ -10,20 +10,20 @@
 
 // 1. WIFI - DIEN THONG TIN CUA BAN
 // =====================================================
-const char *WIFI_SSID = "Redmi A3";
-const char *WIFI_PASSWORD = "12345678";
+const char *WIFI_SSID = "*****";
+const char *WIFI_PASSWORD = "******";
 // =====================================================
 // 2. THINGSBOARD EDGE
 // =====================================================
 // IPv4 hien tai cua may tinh dang chay ThingsBoard Edge.
 // ESP32 va may tinh phai o cung mang.
 // Vi du: 10.254.173.61
-const char *TB_HOST = "10.221.126.61";
+const char *TB_HOST = "******";
 // Docker Edge cua du an dang map host 11883 -> container 1883.
-constexpr uint16_t TB_PORT = 11883;
+constexpr uint16_t TB_PORT = ****;
 // Dung DEVICE ACCESS TOKEN cua ESP32 Weather Station.
 // Khong dung Edge routing key/secret.
-const char *TB_ACCESS_TOKEN = "AcUQSdSNp1tpDXPD5vxd";
+const char *TB_ACCESS_TOKEN = "*****";
 // =====================================================
 // 3. GPIO
 // =====================================================
